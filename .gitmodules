@@ -1,0 +1,9 @@
+[submodule "hugo-cat"]
+	path = hugo-cat
+	url = https://github.com/httpsecure/hugo-cat
+[submodule "themes/hugo-cat"]
+	path = themes/hugo-cat
+	url = https://github.com/httpsecure/hugo-cat
+[submodule "public"]
+	path = public
+	url = https://github.com/oriolmarti97/oriolmarti97.github.io
