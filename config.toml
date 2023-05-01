@@ -1,0 +1,47 @@
+baseURL = '/'
+relativeURLs = true
+languageCode = 'ca'
+title = 'Oriol Martí i Rodríguez'
+theme = 'hugo-cat'
+canonifyurls = true
+copyright = "2023 Oriol Martí i Rodríguez"
+
+
+
+[author]
+    name = "Oriol Martí i Rodríguez"
+    github = "oriolmarti97"
+    #gitlab = ""
+    #linkedin = ""
+    #facebook = ""
+    twitter = "oriolmarti97"
+    instagram = "oriolmarti97"
+
+
+[params]
+    owner = ""
+    talk = """Hola! Em dic Oriol i aquesta és la meva web.
+<br><br>Aquí podreu veure més sobre mi, els meus pensaments, les meves ocurrències i les coses que faig.
+<br><br>Us convido a explorar la pàgina i a interactuar amb mi a través de les meves xarxes socials i/o el correu electrònic."""
+
+[[menu.main]]
+        name = "Inici"
+        weight = 10
+        url="/"
+[[menu.main]]
+        name="Calaix de sastre"
+        weight=20
+        url="/articles/calaix de sastre/"
+[[menu.main]]
+        name="Informàtica"
+        weight=40
+        url="/articles/informatica/"
+
+[[menu.main]]
+	name="Sobre mi"
+	weight=50
+	url="/sobre"
+
+[markup.goldmark.renderer]
+        unsafe= true #Per permetre incrustar html
+

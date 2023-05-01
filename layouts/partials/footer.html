@@ -1,0 +1,23 @@
+<script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
+<footer class="footer">
+	<p><a href="https://gohugo.io">Gràcies a Hugo</a></p>
+	<p>Tema: <a href="https://github.com/httpsecure/hugo-cat">Hugo Cat</a></p>
+	<p>© {{.Site.Copyright | markdownify}} </p>
+	<p><a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></p>
+	<p><a href="https://github.com/oriolmarti97/web">Codi font</a></p>
+	<p>
+	{{ if .Site.Author.twitter }}
+        <a href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+        {{ end }} {{ if .Site.Author.linkedin }}
+        <a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+        {{ end }} {{ if .Site.Author.github }}
+        <a href="https://github.com/{{ .Site.Author.github }}"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+        {{ end }} {{ if .Site.Author.gitlab }}
+        <a href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a>
+        {{ end }} {{ if .Site.Author.facebook }}
+        <a href="https://www.facebook.com/{{ .Site.Author.facebook }}"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a>
+        {{ end }} {{ if .Site.Author.instagram }}
+        <a href="https://instagram.com/{{ .Site.Author.instagram }}"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+        {{ end }}
+	</p>
+</footer>
